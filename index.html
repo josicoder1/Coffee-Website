@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linking font awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Coffee Website | By Jovan</title>
 </head>
 <body>
+    <!-- header -->
     <header>
-        <nav class="navbar">
+        <nav class="navbar section-content">
             <a href="#" class="nav-logo">
                 <h2 class="logo-text">☕ Coffee</h2>
             </a>
             <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
                 <li class="nav-item">
                     <a href="#" class="nav-link">Home</a>
                 </li>
@@ -32,7 +36,44 @@
                     <a href="#" class="nav-link">Contact</a>
                 </li>
             </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
         </nav>
     </header>
+    <main>
+        <!-- hero-section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details"><h2 class="title">Best Coffee</h2>
+                <h3 class="subtitle">Make your day great with our special coffee!</h3><p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy</p>
+                <div class="buttons">
+                    <a href="" class="button order-now">Order Now</a>
+                    <a href="" class="button contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="image/image.png" alt="Hero" class="hero-image">
+            </div>
+            </div>
+        </section>
+        <!-- about section -->
+         <section class="about-section">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="image/image copy.png" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">At Coffee House in Addis Abeba, Ethiopia, we pride ourselves on being a go-to destination for coffee lovers and conversation seekers alike. we're dedicated to providing an exceptional coffee experience in a cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their time in comfort.</p>
+                    <div class="social-link-list">
+                        <a href="" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                         <a href="" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+         </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
+<!-- 17:00 -->
